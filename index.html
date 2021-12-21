@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="icon">
+    <title>Jahongir Islomovic</title>
+    <link rel="stylesheet" href="css/style.css"
+    >
+</head>
+<body>
+    <script>
+        let a  = Number(prompt("Birinchi sonni kiriting: "));//first random number
+        let b = Number(prompt("Ikkinchi sonni kiriting: ")); //second random number
+        let calculate = prompt("Hisoblash turini kirting: ");// calculation type
+
+        if(calculate == "+"){
+            alert("Yig'indi: " + (a+b)); 
+        }
+        //type plus
+        else if(calculate == "-"){
+            alert("Ayirma: " + (a-b))
+        }
+        //type minus
+        else if(calculate == "*"){
+            alert("Ko'paytma: " + (a*b))
+        }
+        //type multiply
+        else if(calculate == "/"){
+            alert("Bo'linma: " + (a/b))
+        }
+        // type split 
+        else{
+            alert("Xato hisoblash turi!!!")
+        } 
+        // type error
+    </script>
+
+</body>
+</html>
